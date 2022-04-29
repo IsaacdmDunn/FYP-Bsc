@@ -1,0 +1,6 @@
+Version 2 => Version 3 Changes:
+- Removed ScriptableObject version as its not compatible with the main focus of this version
+  which is Coroutines. (it may return but I have not learned properly yet how to use it)
+- struct LeafState under MonoLeaf is now class ExecuteState under MonoNodeBase.
+- Extensive Refactors to accomidate IEnumerator types. Overall structure is mostly the same.
+ (Check code comments for full descriptions of changes)

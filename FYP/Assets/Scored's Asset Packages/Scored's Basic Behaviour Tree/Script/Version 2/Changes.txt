@@ -1,0 +1,8 @@
+Version 1 => Version 2 Changes:
+- Runs all trees under root instead of the first found.
+- Removed Child Counter from branches.
+- Removed delegate management from leafs and code overcomplications.
+- Added struct LeafState to Leaf classess.
+- Added comments to NodeBase.
+- Child leaves refactored to new leaf format.
+- Creating the ScriptableObjects is now done per warning advice provided in the Unity console.
